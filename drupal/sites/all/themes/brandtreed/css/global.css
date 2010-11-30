@@ -1,0 +1,123 @@
+/*****************************************************************
+CSS Stylesheet - global.css
+
+Website: brandtreed.com
+Author: Brandt Reed
+E-mail: brandtreed@gmail.com
+
+*****************************************************************/
+
+body {
+font-size:100%;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+line-height: 1.4em;
+color: #333;
+background: #626262 url(../images/bg-body.png) top left repeat-x;
+padding: 30px 0;
+}
+
+/*
+ * Block-level elements
+ */
+p,
+ul,
+ol,
+dl,
+pre,
+table,
+fieldset {
+  margin: 0 0 1em 0;
+}
+
+blockquote {margin: 1em 2em 1em 0;padding-left: 3em;font-style: italic;background: url(../images/quote.png) no-repeat;}
+code, pre {font-family: Monaco, "Lucida Console", monospace;white-space: pre;overflow: auto;margin:10px 0 10px;background-color: #fff;border: 1px solid #ccc;padding: 20px 5px 5px 5px;display: block;font-size: 0.9em;background: #fff url(../images/title-code.png) top left no-repeat;width: 100%;}
+
+
+/*Tables*/
+table, th, td {line-height: 1.35em;font-size: 0.9em;}
+table {width: 100%;margin-bottom: 1.5em;border: 1px solid #cbcbcb;}
+th, thead td {padding: 12px 8px;color: #666;background-color: #efefef;text-transform: uppercase;font-weight: bold;}
+th.active img {padding: 3px;}
+thead a:link,thead a:visited,thead a:active {color: #f3f3f3;border: none;}
+td {padding: 8px;}
+thead th {border: none;}
+tr.odd {background-color: #e0e0e0;}
+tr.even {background-color: #fff;}
+tr {border-bottom: 1px dotted #cbcbcb;background-color: #fff;}
+thead tr:hover {}
+td.active {background: none;}
+td a:link {border: none;}
+
+/*
+ * Markup free clearing (See: http://www.positioniseverything.net/easyclearing.html )
+ */
+.group:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+div.page-admin #content {background-color: #f3f3f3;}
+
+/*Links*/
+a {text-decoration: none;}
+a:link,a:active,a:visited {color: #666;}
+a:hover {color: #000;}
+
+
+/*
+ * Headings
+ */
+h1 {
+color: #333;
+letter-spacing: -2px;
+  font-size: 2.0em;
+  font-weight: bold;
+  line-height: 1.0em;
+  margin-top: 0;
+  margin-bottom: 0; /* 0.5em is equavalent to 1em in the page's base font.
+                           Remember, a margin specified in ems is relative to
+                           the element's font-size, not to the pages' base
+                           font size. So, for example, if we want a 1em margin
+                           (relative to the base font), we have to divide that
+                           length by the element's font-size:
+                           1em / 2em = 0.5em */
+                           
+}
+
+h2 {
+  font-size: 1.7em;
+  line-height: 1.2em;
+  margin-top: 0.667em; /* Equivalent to 1em in the page's base font: 1 / 1.5 = 0.667em */
+  margin-bottom: 0.3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #333;
+
+  
+}
+
+h3 {
+  font-size: 1.4em;
+  line-height: 1.4em;
+  margin-top: 1em; 
+  margin-bottom: 0.069em;
+  color: #5c1d04;
+  
+}
+
+h4,
+h5,
+h6 {
+  font-size: 1.1em;
+  line-height: 1.1em;
+  margin-top: 0.909em; /* Equivalent to 1em in the page's base font: 1 / 1.1 = 0.909 */
+  margin-bottom: 0.069em;
+}
+
+
+
+
+
