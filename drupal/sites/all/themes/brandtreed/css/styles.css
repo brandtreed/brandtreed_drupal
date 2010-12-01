@@ -18,7 +18,7 @@ E-mail: brandtreed@gmail.com
 #content {margin-left: 291px;padding: 20px 20px 10px;background-color: #fff;}
 .front #content,.page-photo #content  {padding-top: 0;border:none;padding-right: 0;margin-left: 271px;}
 .sidebar {width: 270px;}
-#col-left { float: left;display:inline;background-color: #fff;}
+#col-left { float: left;display:inline;background-color: #fff;border-bottom: 5px solid #e0e0e0;}
 
 /* -----------------------------------------------------------------------------------------
 >>>  Welcome  <<<
