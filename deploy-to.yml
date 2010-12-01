@@ -1,0 +1,14 @@
+ignore: [
+  sites/default/files,
+  sites/default/settings.php,
+  .ftpquota
+]
+
+base: drupal
+
+remotes:
+  prod:
+    host: pixeltrails.com
+    user: bjreed
+    path: /home/bjreed/public_html/brandtreed
+    port: 1122
