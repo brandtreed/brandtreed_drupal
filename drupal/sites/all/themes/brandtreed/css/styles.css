@@ -11,8 +11,8 @@ E-mail: brandtreed@gmail.com
 >>>  LAYOUT  <<<
 ------------------------------------------------------------------------------------------*/
 #wrapper {width: 960px;margin: 0 auto;overflow: hidden;}
-#content {margin-left: 291px;padding: 20px 20px 10px;background-color: #fff;}
-.front #content,.page-photo #content  {padding-top: 0;border:none;padding-right: 0;margin-left: 271px;}
+#content {margin-left: 290px;padding: 20px 20px 10px;background-color: #fff;}
+.front #content,.page-photo #content  {padding-top: 0;border:none;padding-right: 0;margin-left: 270px;}
 .sidebar {width: 270px;}
 #col-left { float: left;display:inline;background-color: #fff;border-bottom: 5px solid #e0e0e0;}
 
