@@ -28,7 +28,7 @@ E-mail: brandtreed@gmail.com
 /* -----------------------------------------------------------------------------------------
 >>>  VIEW - Frontpage  <<<
 ------------------------------------------------------------------------------------------*/
-div.view-front div.row {border:10px solid #efefef;margin-bottom: 25px;background-color: #f3f3f3;position: relative;}
+div.view-front div.row {border:10px solid #efefef; margin-bottom: 25px;background-color: #f3f3f3;position: relative;}
 div.view-front div.row:hover {
 	border:10px solid #63201f;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -147,7 +147,7 @@ ul.secondary li a.active {font-weight: normal;}
 #block-block-2 {padding-top: 20px;}
 a.btn-resume {display: block;background: url(../images/sprite-btns.png) 0 0 no-repeat;width:200px;height: 37px;display: block;margin: 0 auto;text-indent: -9999px;}
 a:hover.btn-resume {background: url(../images/sprite-btns.png) 0 -37px no-repeat;}
-a.btn {padding: 3px 8px;background-color: #333;color: #ccc;display: inline-block;margin: 10px 0;font-size: 0.9em;border: 1px solid #000;}
+a.btn {padding: 3px 8px;background-color: #e0e0e0;color: #666;display: inline-block;margin: 10px 0;font-size: 0.9em;border: 1px solid #ccc;}
 a:hover.btn {background-color: #f3f3f3;color: #666;border: 1px solid #ccc;}
 
 a.btn-back {
